@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/works/CubeMX/projects/HW/hw_work1/build/Debug/cmake_install.cmake",
+		"E:/works/CubeMX/projects/HW/hw_work1/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
