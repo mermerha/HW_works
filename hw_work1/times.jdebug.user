@@ -1,21 +1,22 @@
 
 GraphedExpression=" g_can_tx_data.flag1", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#a00909
 GraphedExpression=" g_uart_tx_data.value", Color=#09a01b
-GraphedExpression=" g_uart_tx_data.tick", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#09a087
+GraphedExpression=" g_uart_tx_data.tick", Color=#09a087
 GraphedExpression=" g_can_tx_data.value1", Color=#0984a0
-GraphedExpression=" g_can_rx_data.value1", Color=#0964a0
+GraphedExpression=" g_can_rx_data.value1", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#0964a0
+GraphedExpression=" g_uart_rx_data.tick", Color=#094fa0
 OpenDocument="main.c", FilePath="E:/works/CubeMX/projects/HW/hw_work1/Core/Src/main.c", Line=0
 OpenToolbar="Debug", Floating=0, x=0, y=0
-OpenWindow="Call Stack", DockArea=RIGHT, x=0, y=1, w=717, h=238, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Source Files", DockArea=LEFT, x=0, y=1, w=446, h=252, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=717, h=189, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=0, w=446, h=175, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Data Sampling", DockArea=BOTTOM, x=1, y=0, w=901, h=496, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
-OpenWindow="Timeline", DockArea=BOTTOM, x=0, y=0, w=1018, h=496, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="2 s / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="754;267", PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="649;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="664;3"
+OpenWindow="Call Stack", DockArea=RIGHT, x=0, y=1, w=717, h=195, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=1, w=446, h=205, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=717, h=166, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=0, w=446, h=156, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=1, y=0, w=901, h=562, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=BOTTOM, x=0, y=0, w=1018, h=562, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="2 s / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="754;313", PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="814;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="828;0"
 TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[158;117;92;93;173;100]
 TableHeader="Source Files", SortCol="File", SortOrder="DESCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[212;100;100;100;1190]
-TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"  g_can_tx_data.flag1";"  g_uart_tx_data.value";"  g_uart_tx_data.tick";"  g_can_tx_data.value1";"  g_can_rx_data.value1"], ColWidths=[100;100;100;100;100;100;100]
-TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[293;118;126;126;126;126;100;107;107]
+TableHeader="Data Sampling Table", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"  g_can_tx_data.flag1";"  g_uart_tx_data.value";"  g_uart_tx_data.tick";"  g_can_tx_data.value1";"  g_can_rx_data.value1";"  g_uart_rx_data.tick"], ColWidths=[100;100;100;100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[293;118;110;110;102;110;100;118;110]
 TableHeader="Power Sampling", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
 TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[100;78;145;123]
 TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
